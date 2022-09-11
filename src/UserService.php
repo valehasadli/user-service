@@ -1,8 +1,6 @@
 <?php
 
-
-namespace Services;
-
+namespace ValehAsadli\UserService;
 
 class UserService extends ApiService
 {
