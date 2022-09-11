@@ -1,12 +1,19 @@
 {
-    "name": "antoniopapa/user-service",
+    "name": "valehasadli/user-service",
+    "description": "User Service for Microservices",
     "require": {
-        "laravel/framework": "^8.51"
+        "laravel/framework": "^9.25"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ValehAsadli\\UserService\\": "src/"
+        }
     },
     "authors": [
         {
-            "name": "Antonio Papa",
-            "email": "antoniopapa1991@gmail.com"
+            "name": "Valeh ASADLI",
+            "email": "valehasadli@gmail.com"
         }
     ]
 }
